@@ -5,6 +5,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "uSystem.settings")
 
 def main():
         from uQuery.models import AllUser
+        from uQuery.c10004.models import User10004
         
         fileall = glob.glob('fwq\*.txt')
         for filename in fileall:
